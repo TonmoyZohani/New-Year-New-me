@@ -1,0 +1,252 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+ul,
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+p {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.banner {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../images/banner/banner2.png);
+  background-position: center;
+  background-size: cover;
+}
+.content {
+  width: 1080px;
+  margin: auto;
+}
+.cover {
+  width: 100%;
+  justify-content: right;
+  text-align: right;
+  padding-top: 200px;
+}
+
+.cover .main-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 76px;
+  color: #151414;
+  margin-bottom: 20px;
+  font-family: "Work Sans";
+}
+.cover .primary-p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #444343;
+  margin-bottom: 20px;
+  font-family: "Work Sans";
+}
+.primary-btn {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  font-family: "Work Sans";
+  color: #ffffff;
+  background-color: #f15b22;
+  border-radius: 5px;
+  border: 0;
+  height: 64px;
+  width: 160px;
+}
+
+.prev-year {
+  width: 100%;
+  height: 650px;
+  padding-top: 200px;
+}
+.year {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.year .year-box-one {
+  height: 400px;
+  width: 400px;
+  background: rgba(241, 91, 34, 0.2);
+  border-radius: 50%;
+  position: relative;
+}
+.year .year-box-two {
+  height: 400px;
+  width: 400px;
+  padding-left: 20px;
+}
+
+.year .year-box-one .year-image {
+  position: absolute;
+  width: 451px;
+  height: 500px;
+  bottom: 3px;
+  left: -18px;
+}
+.yaer-title {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  color: #151414;
+  margin-bottom: 20px;
+}
+.year .year-box-two .year-p {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #444343;
+  margin-bottom: 20px;
+}
+.year .year-box-two ul li {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #444343;
+}
+.year .year-box-two ul li i {
+  color: greenyellow;
+  font-size: 18px;
+  padding-right: 10px;
+  padding-top: 5px;
+}
+.my-plan {
+  width: 100%;
+  height: 300px;
+  margin-bottom: 50px;
+}
+.my-plan .plan-content {
+  text-align: center;
+  width: 100%;
+}
+.plan-contents {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+.plan-contents .web-development img {
+  width: 92px;
+  height: 92px;
+  margin-bottom: 25px;
+}
+.plan-contents .web-development .plan-title {
+  font-family: "Work Sans";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  color: #151414;
+  margin-bottom: 15px;
+}
+.plan-contents .web-development .plan-p {
+  font-family: "Work Sans";
+  color: #737272;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.rectangle {
+  width: 100%;
+  height: 300px;
+}
+.rectangle .rectangle-content {
+  width: 100%;
+  height: 250px;
+  background-image: linear-gradient(
+      to right,
+      rgba(241, 91, 34, 1),
+      rgba(255, 255, 255, 0)
+    ),
+    url(../images/watch.png);
+  background-position: center;
+  background-size: cover;
+}
+.diff {
+  padding-top: 50px;
+  margin-left: 50px;
+  color: #fff;
+}
+.rec-btn {
+  background-color: #fff;
+  color: #f15b22;
+  margin-left: 50px;
+}
+
+.foot-main {
+  width: 100%;
+  height: 500px;
+  background-color: #151414;
+}
+.foot-main-content {
+  width: 100%;
+  padding-top: 100px;
+}
+.foot-main-content {
+  display: flex;
+  justify-content: space-between;
+}
+.foot-main-content .future {
+  width: 500px;
+}
+.foot-p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #fff;
+  margin-bottom: 10px;
+  font-family: "Work Sans";
+  margin-left: 50px;
+}
+.foot-main-content .future ul {
+  display: flex;
+}
+.foot-main-content .future ul li {
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.foot-main-content .future ul li:nth-child(1) {
+  margin-left: 50px;
+}
+.center {
+  text-align: center;
+}
+.sub {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 26px;
+  color: #fff;
+  margin-bottom: 30px;
+  font-family: "Work Sans";
+  margin-top: 50px;
+}
+.foot-main-content .future input {
+  display: block;
+  margin-bottom: 20px;
+  height: 64px;
+  border-radius: 5px;
+  margin-left: 180px;
+}
+.foot-main-content .future .email {
+  width: 300px;
+  padding-left: 30px;
+}
+.foot-btn {
+  background-color: #fff;
+  color: #f15b22;
+}
